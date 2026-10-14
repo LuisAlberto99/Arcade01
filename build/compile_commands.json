@@ -1,0 +1,116 @@
+[
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\main.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\main.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/main.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\Vector2.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\Vector2.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/Vector2.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/Vector2.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\GameObject.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\GameObject.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/GameObject.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/GameObject.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\TransformComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\TransformComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/TransformComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/TransformComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\RectRenderComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\RectRenderComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/RectRenderComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/RectRenderComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\ColliderComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\ColliderComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/ColliderComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/ColliderComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\CollisionManager.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\CollisionManager.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/CollisionManager.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/CollisionManager.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\Scene.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\Scene.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/Scene.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/Scene.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\SceneManager.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\SceneManager.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/SceneManager.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/SceneManager.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\PlayerControllerComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\PlayerControllerComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/PlayerControllerComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/PlayerControllerComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\AIControllerComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\AIControllerComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/AIControllerComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/AIControllerComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\BallComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\BallComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/BallComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/BallComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\GoalSensorComponent.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\GoalSensorComponent.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/GoalSensorComponent.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/GoalSensorComponent.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\SevenSegmentDisplay.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\SevenSegmentDisplay.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/SevenSegmentDisplay.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/SevenSegmentDisplay.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\BitmapFont.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\BitmapFont.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/BitmapFont.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/BitmapFont.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\TitleScene.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\TitleScene.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/TitleScene.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/TitleScene.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\GameplayScene.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\GameplayScene.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/GameplayScene.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/GameplayScene.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\PauseScene.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\PauseScene.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/PauseScene.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/PauseScene.cpp.obj"
+},
+{
+  "directory": "C:/msys64/home/Beto/Arcade01/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -IC:/msys64/home/Beto/Arcade01/include -IC:/msys64/home/Beto/Arcade01/src -std=gnu++20 -o CMakeFiles\\proyecto01.dir\\src\\GameOverScene.cpp.obj -c C:\\msys64\\home\\Beto\\Arcade01\\src\\GameOverScene.cpp",
+  "file": "C:/msys64/home/Beto/Arcade01/src/GameOverScene.cpp",
+  "output": "C:/msys64/home/Beto/Arcade01/build/CMakeFiles/proyecto01.dir/src/GameOverScene.cpp.obj"
+}
+]

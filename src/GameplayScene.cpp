@@ -25,7 +25,7 @@ void GameplayScene::Init()
     player->AddComponent<TransformComponent>(Vector2{40.0f, (GameConstants::WindowHeight - GameConstants::PaddleHeight) * 0.5f});
     player->AddComponent<RectRenderComponent>(
         Vector2{GameConstants::PaddleWidth, GameConstants::PaddleHeight},
-        SDL_Color{80, 200, 255, 255});
+        GameConstants::PlayerColor);
     player->AddComponent<ColliderComponent>(Vector2{GameConstants::PaddleWidth, GameConstants::PaddleHeight});
     player->AddComponent<PlayerControllerComponent>();
 
@@ -36,7 +36,7 @@ void GameplayScene::Init()
         (GameConstants::WindowHeight - GameConstants::PaddleHeight) * 0.5f});
     ai->AddComponent<RectRenderComponent>(
         Vector2{GameConstants::PaddleWidth, GameConstants::PaddleHeight},
-        SDL_Color{255, 120, 80, 255});
+        GameConstants::AIColor);
     ai->AddComponent<ColliderComponent>(Vector2{GameConstants::PaddleWidth, GameConstants::PaddleHeight});
     AIControllerComponent *aiController = ai->AddComponent<AIControllerComponent>();
 
@@ -45,7 +45,7 @@ void GameplayScene::Init()
     ball->AddComponent<TransformComponent>(Vector2{0.0f, 0.0f});
     ball->AddComponent<RectRenderComponent>(
         Vector2{GameConstants::BallSize, GameConstants::BallSize},
-        SDL_Color{255, 255, 255, 255});
+        GameConstants::BallColor);
     ball->AddComponent<ColliderComponent>(Vector2{GameConstants::BallSize, GameConstants::BallSize});
     ball->AddComponent<BallComponent>();
     m_ball = ball;

@@ -27,14 +27,15 @@ void TitleScene::Render(SDL_Renderer *renderer)
     float titleWidth = BitmapFont::MeasureTextWidth("PONG", titlePixel);
     BitmapFont::DrawText(renderer, "PONG", (GameConstants::WindowWidth - titleWidth) * 0.5f, 100.0f, titlePixel, white);
 
-    const float instrPixel = 5.0f;
+    const float line1Pixel = 5.0f;
     std::string line1 = "INICIAR";
-    float line1Width = BitmapFont::MeasureTextWidth(line1, instrPixel);
-    BitmapFont::DrawText(renderer, line1, (GameConstants::WindowWidth - line1Width) * 0.5f, 280.0f, instrPixel, white);
+    float line1Width = BitmapFont::MeasureTextWidth(line1, line1Pixel);
+    BitmapFont::DrawText(renderer, line1, (GameConstants::WindowWidth - line1Width) * 0.5f, 220.0f, line1Pixel, white);
 
-    std::string line2 = "PRECIONA LA TECLA ESPACIO";
-    float line2Width = BitmapFont::MeasureTextWidth(line2, instrPixel);
-    BitmapFont::DrawText(renderer, line2, (GameConstants::WindowWidth - line2Width) * 0.5f, 320.0f, instrPixel, white);
+    const float line2Pixel = 2.0f;
+    std::string line2 = "PRESIONA LA TECLA ESPACIO";
+    float line2Width = BitmapFont::MeasureTextWidth(line2, line2Pixel);
+    BitmapFont::DrawText(renderer, line2, (GameConstants::WindowWidth - line2Width) * 0.5f, 320.0f, line2Pixel, white);
 
     SDL_SetRenderDrawColor(renderer, 200, 200, 200, 255);
     SDL_FRect leftPaddle{60.0f, 400.0f, 20.0f, 80.0f};

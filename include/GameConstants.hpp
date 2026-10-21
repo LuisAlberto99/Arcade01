@@ -21,7 +21,7 @@ namespace GameConstants
     inline constexpr float BallSpeedUpFactor = 1.08f; // multiplicador de velocidad tras cada rebote en paleta
     inline constexpr float BallMaxBounceAngleDeg = 60.0f; // ángulo máximo de rebote respecto a la horizontal
 
-    inline constexpr int WinningScore = 7;
+    inline constexpr int WinningScore = 7; //Puntos para ganar
 
     inline constexpr float GoalSensorWidth = 20.0f; // ancho del sensor de anotación, fuera de cada borde
-}
+};

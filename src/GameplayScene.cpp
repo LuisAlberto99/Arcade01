@@ -131,16 +131,15 @@ void GameplayScene::OnGoalScored(GoalSide side)
         m_playerScore++; // entró por la derecha: anota el jugador
     }
 
-    if (m_playerScore >= GameConstants::WinningScore || m_aiScore >= GameConstants::WinningScore)
+    if (m_playerScore >= GameConstants::WinningScore || m_aiScore >= GameConstants::WinningScore)//Se revisa si hay un ganador.
     {
         bool playerWon = m_playerScore > m_aiScore;
         m_manager->ChangeScene(std::make_unique<GameOverScene>(m_manager, playerWon, m_playerScore, m_aiScore));
-        return;
     }
 
     if (auto *ball = m_ball->GetComponent<BallComponent>())
     {
-        float serveDirection = (side == GoalSide::Left) ? 1.0f : -1.0f;
+        float serveDirection = (side == GoalSide::Left) ? 1.0f : -1.0f; //Se regresa la pelota al centro y va hacia el que anota el goal.
         ball->ResetToCenter(serveDirection);
     }
 }

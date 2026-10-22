@@ -20,8 +20,9 @@ void AIControllerComponent::FixedUpdate(float fixed_dt)
     else if (targetCenterY > paddleCenterY + deadZone) direction = 1.0f;
 
     Vector2 velocity{0.0f, direction};
-    // IA "básica": 75% de la velocidad del jugador, para que sea vencible
-    transform->Translate(velocity * (GameConstants::PaddleSpeed * 0.75f * fixed_dt));
+    
+    // IA "básica": % de la velocidad del jugador.
+    transform->Translate(velocity * (GameConstants::PaddleSpeed * 0.45f * fixed_dt));
 
     float maxY = GameConstants::WindowHeight - GameConstants::PaddleHeight * transform->scale.y;
     transform->position = transform->position.clamp(
